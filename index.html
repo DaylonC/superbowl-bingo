@@ -546,6 +546,7 @@
                         td.textContent = selected[index];
                         td.onclick = function() {
                             this.classList.toggle('marked');
+                            this.blur();
                         };
                         index++;
                     }
